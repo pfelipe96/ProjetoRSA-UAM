@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_modular__inverso"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#000"
+    tools:context="com.example.paulo.myapplicationrsa.Modular_Inverso">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:background="#9C9C9C"
+        android:id="@+id/MI_Edit1"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/MI_Text1"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:background="#9C9C9C"
+        android:id="@+id/MI_Edit2"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/MI_Text2"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:id="@+id/MI_Text1"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:text="Insira o número F(n):" />
+
+    <TextView
+        android:text="Insira o número E:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:id="@+id/MI_Text2"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/MI_Edit1"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O número do modular inverso é:"
+        android:textColor="#fff"
+        android:id="@+id/MI_Text3"
+        android:layout_below="@+id/MI_Edit2"
+        android:layout_marginTop="20dp"
+         android:textSize="15sp"
+        android:layout_alignParentStart="true"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:id="@+id/MI_Text4"
+        android:layout_below="@+id/MI_Text3"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:text="Calcular"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/MI_button1"
+        android:layout_marginTop="80dp"
+        android:layout_alignTop="@id/MI_Text4"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+
+
