@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_descriptografia"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#000"
+    tools:context="com.example.paulo.myapplicationrsa.Descriptografia">
+
+    <TextView
+        android:text="Insira o número N:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:id="@+id/D_Text1"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:background="#9C9C9C"
+        android:id="@+id/D_Edit1"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/D_Text1"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Insira o número D:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:id="@+id/D_Text2"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/D_Edit1"
+        android:layout_alignParentStart="true" />
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:background="#9C9C9C"
+        android:id="@+id/D_Edit2"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/D_Text2"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insira os números da criptografia:"
+        android:textColor="#fff"
+        android:id="@+id/D_Text3"
+        android:layout_below="@+id/D_Edit2"
+        android:layout_marginTop="17dp"
+        android:layout_alignParentStart="true"/>
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/D_Text3"
+        android:layout_marginTop="17dp"
+        android:background="#9C9C9C"
+        android:id="@+id/D_Edit3"
+        tools:inputType="number"
+        android:inputType="number" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:background="#9C9C9C"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/D_input"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/D_Text4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Os números da descriptação:"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:id="@+id/D_Text4"
+        android:layout_below="@+id/D_button1"
+        android:layout_marginTop="17dp" />
+
+        <Button
+        android:text="Descriptografa "
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/D_button1"
+        android:layout_below="@id/D_Edit3"
+        android:layout_marginTop="17dp"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
+
